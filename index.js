@@ -1,7 +1,15 @@
+// const input = document.getElementById('input');
 
-const input = document.querySelector('input');
+// function addingEventListener() {
+//     function clickAlert() {
+//         alert('I was clicked!');
+//       }
+      
+//       input.addEventListener('click', clickAlert); 
+//     }
+
 function addingEventListener() {
-  input.addEventListener('click', function(event) {
-    return "clicked"
-  });
+  let input = document.getElementById("button");
+  input.addEventListener("click", addingEventListener);
+  alert("I was clicked!");
 }
